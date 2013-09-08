@@ -1,13 +1,14 @@
-.social-info
+.personal-info
   .photo
-  .accounts
-    .icon
+    =image_tag('/images/profile_pic.jpg', alt: 'personal photo', class: 'profile-pic')
+  %ul.social-accounts
+    %li.icon
       = link_to 'Facebook', 'https://www.facebook.com/LucyKBain'
-    .icon
+    %li.icon
       = link_to 'Twitter', 'https://twitter.com/lucykbain'
-    .icon
+    %li.icon
       = link_to 'GitHub', 'https://github.com/lbain'
-    .icon
+    %li.icon
       = link_to 'Stackoverflow', 'http://stackoverflow.com/users/863846/lucy-bain'
-    .icon
+    %li.icon
       = link_to 'Blog', 'http://lucyleaps.wordpress.com/'

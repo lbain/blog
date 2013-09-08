@@ -11,6 +11,9 @@
  *= require_self
  *= require_tree .
 */
+body {
+  background: #f7f6f5;
+}
 .brand {
   float: left;
   padding-right: 8px;
