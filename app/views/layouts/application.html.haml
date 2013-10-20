@@ -2,8 +2,9 @@
 %html
   %head
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
+      %a{href:'favicon.ico', rel:'shortcut icon', type:'image/x-icon'}
       %a{href: 'http://fonts.googleapis.com/css?family=Lato', rel: 'stylesheet', type: 'text/css'}
-      %title= content_for?(:title) ? yield(:title) : "Blog"
+      %title= content_for?(:title) ? yield(:title) : "Lucy Bain"
       %meta{:content => content_for?(:description) ? yield(:description) : "Blog", :name => "description"}
         = stylesheet_link_tag "application", :media => "all"
         = javascript_include_tag "application"
